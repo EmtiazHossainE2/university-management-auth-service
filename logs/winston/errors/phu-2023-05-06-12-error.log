@@ -1,0 +1,5 @@
+Mon Jun 05 2023 12:20:18 } [UU] error: User validation failed: role: Path `role` is required.
+Mon Jun 05 2023 12:24:6 } [UU] error: User validation failed: role: Path `role` is required.
+Mon Jun 05 2023 12:24:39 } [UU] error: User validation failed: role: Path `role` is required.
+Mon Jun 05 2023 12:25:26 } [UU] error: User validation failed: password: Path `password` is required.
+Mon Jun 05 2023 12:25:31 } [UU] error: User validation failed: password: Path `password` is required., role: Path `role` is required.

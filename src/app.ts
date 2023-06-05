@@ -2,6 +2,7 @@ import express, { Application, Request, Response } from "express";
 const app: Application = express();
 import cors from "cors";
 import usersRouter from "./app/modules/users/users.route";
+import globalErrorHandler from "./app/middlewares/globalErrorHandler";
 
 app.use(cors());
 
@@ -25,5 +26,14 @@ app.get("/", (req: Request, res: Response) => {
 //   })
 //   res.send("Welcome to test route");
 // });
+
+// //Testing
+// app.get('/', (req: Request, res: Response, next: NextFunction) => {
+//   // throw new ApiError(400, 'yo Error ')
+//   // next('Yoyo  Error') // Error
+// })
+
+//global error handler
+app.use(globalErrorHandler);
 
 export default app;
