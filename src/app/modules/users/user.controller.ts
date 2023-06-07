@@ -1,15 +1,11 @@
-import { NextFunction, Request, Response } from "express";
-import usersService from "./users.service";
+import { RequestHandler } from "express";
 import { errorLogger } from "../../../shared/logger";
+import { UserService } from "./user.service";
 
-export const createUser = async (
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => {
+export const createUser: RequestHandler = async (req, res, next) => {
   try {
     const user = req.body;
-    const result = await usersService.createUser(user);
+    const result = await UserService.createUser(user);
     res.status(200).json({
       success: true,
       message: "User created successfully !",
@@ -19,4 +15,8 @@ export const createUser = async (
     errorLogger.error(error);
     next(error);
   }
+};
+
+export const UserController = {
+  createUser,
 };

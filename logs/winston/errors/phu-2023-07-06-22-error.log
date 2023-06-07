@@ -1,0 +1,7 @@
+Wed Jun 07 2023 22:3:15 } [UU] error: User validation failed: role: Path `role` is required.
+Wed Jun 07 2023 22:14:1 } [UU] error: Failed querySrv ECONNREFUSED _mongodb._tcp.cluster0.frp5vqq.mongodb.net
+Wed Jun 07 2023 22:14:4 } [UU] error: Failed querySrv EREFUSED _mongodb._tcp.cluster0.frp5vqq.mongodb.net
+Wed Jun 07 2023 22:14:6 } [UU] error: Failed querySrv EREFUSED _mongodb._tcp.cluster0.frp5vqq.mongodb.net
+Wed Jun 07 2023 22:15:31 } [UU] error: Failed querySrv ECONNREFUSED _mongodb._tcp.cluster0.frp5vqq.mongodb.net
+Wed Jun 07 2023 22:15:35 } [UU] error: Failed querySrv ECONNREFUSED _mongodb._tcp.cluster0.frp5vqq.mongodb.net
+Wed Jun 07 2023 22:15:43 } [UU] error: Failed querySrv ECONNREFUSED _mongodb._tcp.cluster0.frp5vqq.mongodb.net
